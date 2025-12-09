@@ -1,13 +1,13 @@
 # Branding
 
-# Codec Branding Assets
+# CodecFlow Branding Assets
 
-This repository contains the official branding assets for Codec, including logos, partner integration assets, and brand guidelines.
+This repository contains the official branding assets for CodecFlow, including logos, partner integration assets, and brand guidelines.
 
 ## 📁 Repository Structure
 
-### codec-logo
-The main brand assets for Codec, organized by format and usage:
+### codecFlow-logo
+The main brand assets for CodecFlow, organized by format and usage:
 
 - **logo/** - Primary logo files
   - `eps/` - Vector files for print and professional use
