@@ -60,7 +60,7 @@ Partner and integration branding assets:
 
 ## 🔗 Integration Assets
 
-Partner logos are provided in light variants optimized for use alongside Codec branding in:
+Partner logos are provided in light variants optimized for use alongside CodecFlow branding in:
 - Marketing materials
 - Documentation
 - Integration announcements
@@ -82,7 +82,7 @@ Files follow a consistent naming pattern:
 
 ## 📞 Contact
 
-For questions about brand usage or additional asset requests, please contact the Codec team.
+For questions about brand usage or additional asset requests, please contact the CodecFlow team.
 
 ---
 
