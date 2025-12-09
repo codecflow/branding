@@ -6,7 +6,7 @@ This repository contains the official branding assets for CodecFlow, including l
 
 ## 📁 Repository Structure
 
-### codecFlow-logo
+### CodecFlow-logo
 The main brand assets for CodecFlow, organized by format and usage:
 
 - **logo/** - Primary logo files
