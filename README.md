@@ -6,7 +6,7 @@ This repository contains the official branding assets for CodecFlow, including l
 
 ## 📁 Repository Structure
 
-### CodecFlow-logo
+### codecflow-logo
 The main brand assets for CodecFlow, organized by format and usage:
 
 - **logo/** - Primary logo files
@@ -15,30 +15,40 @@ The main brand assets for CodecFlow, organized by format and usage:
   - `jpg/` - Compressed formats for web and presentations
   - `svg/` - Scalable vector graphics for web applications
 
-- **logo-circle/** - Circular logo variants and monogram
+- **logo-circle/** - Circular logo variants
   - Contains the same format structure as the main logo
-  - Includes monogram versions for profile pictures and icons
+  - Circular versions for profile pictures and social media
 
 - **monogram/** - Standalone monogram assets
   - Simplified brand mark for use when space is limited
+  - Available with and without backgrounds
 
 - **monogram-circle/** - Circular monogram variants
   - Circular versions of the standalone monogram
+  - Optimized for profile pictures and icons
 
-### integrations
-Partner and integration branding assets:
-
-- **partner-integrations/light/** - Partner logos optimized for light backgrounds
-- **partner-integrations/original/** - Original partner logos
-  - Includes logos for: AWS, Chainlink, Eliza, GCP, Hugging Face, Kubernetes, Langchain, Nosana, Peaq, RunPod, Solana, and more
 
 ## 🎨 Logo Variants
 
 ### Primary Logo
-- **logo_dark** - Use on light backgrounds
-- **logo_light** - Use on dark backgrounds
-- **logo_dark_in_light_bg** - Dark logo with built-in light background
-- **logo_light_in_dark** - Light logo with built-in dark background
+- **black_logo** - Black version for use on light backgrounds
+- **white_logo** - White version for use on dark backgrounds
+- **black_logo_white_bg** - Black logo with white background
+- **white_logo_black_bg** - White logo with black background
+
+### Circular Variants
+- **logo_circle_black** - Black circular logo
+- **logo_circle_white** - White circular logo
+
+### Monogram
+- **monogram_dark** - Dark monogram
+- **monogram_light** - Light monogram
+- **monogram_dark_with_bg** - Dark monogram with background
+- **monogram_light_with_bg** - Light monogram with background
+
+### Monogram Circle
+- **monogram_circle_black** - Black circular monogram
+- **monogram_circle_white** - White circular monogram
 
 ### File Formats
 - **eps** - Best for print and professional design work
@@ -69,9 +79,19 @@ Partner logos are provided in light variants optimized for use alongside CodecFl
 ## 📋 File Naming Convention
 
 Files follow a consistent naming pattern:
-- Directory names: lowercase with dashes (e.g., `logo-circle`, `partner-integrations`)
-- File names: lowercase with underscores replacing spaces (e.g., `logo_dark_in_light_bg1200px.png`)
-- Format: `[name]_[variant]_[context][size].[extension]`
+- **Directory names**: lowercase with dashes (e.g., `logo/`, `logo-circle/`, `monogram/`, `monogram-circle/`)
+  - Format subfolders: `eps/`, `jpg/`, `png/`, `svg/`
+- **File names**: lowercase with underscores replacing spaces
+  - Examples:
+    - `black_logo_no_bg.eps` - Black logo without background in EPS format
+    - `white_logo_white_bg@4x.png` - White logo with white background at 4x resolution in PNG format
+    - `monogram_dark_1200px.jpg` - Dark monogram at 1200px in JPG format
+    - `logo_circle_black.svg` - Black circular logo in SVG format
+- **Format**: `[type]_[variant]_[context][resolution].[extension]`
+  - **type**: logo, monogram, logo_circle, monogram_circle
+  - **variant**: black, white, dark, light
+  - **context**: no_bg (no background), white_bg, black_bg, with_bg
+  - **resolution**: @2x, @4x (for PNG), @4x-100 (for JPG), 1200px (for large files)
 
 ## 🚀 Quick Start
 
