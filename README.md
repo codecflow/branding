@@ -27,6 +27,14 @@ The main brand assets for CodecFlow, organized by format and usage:
   - Circular versions of the standalone monogram
   - Optimized for profile pictures and icons
 
+### integrations
+Partner and integration logos, organized by category:
+
+- **partners/** - Partner integration logos
+  - Full-color versions of partner logos for use in marketing and documentation
+  - Available partners: AWS, Chainlink, Eliza, GCP, Huggingface, Kubernetes, Langchain, Nosana, Runpod, Solana
+  - **grayscale/** - Light grayscale variants of partner logos for muted/secondary use cases
+
 
 ## 🎨 Logo Variants
 
@@ -70,11 +78,17 @@ The main brand assets for CodecFlow, organized by format and usage:
 
 ## 🔗 Integration Assets
 
-Partner logos are provided in light variants optimized for use alongside CodecFlow branding in:
+The `integrations/partners/` directory contains partner logos in two variants:
+
+- **Full-color versions** - Located in `partners/` for primary use cases
+- **Grayscale variants** - Located in `partners/grayscale/` for secondary/muted use cases
+
+Partner logos are optimized for use alongside CodecFlow branding in:
 - Marketing materials
 - Documentation
 - Integration announcements
 - Partnership presentations
+- Product interfaces
 
 ## 📋 File Naming Convention
 
