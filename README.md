@@ -10,13 +10,11 @@ branding/
 │   ├── logo/
 │   │   ├── svg/
 │   │   ├── pdf/
-│   │   ├── png/
-│   │   └── jpg/
+│   │   └── png/
 │   ├── monogram/
 │   │   ├── svg/
 │   │   ├── pdf/
-│   │   ├── png/
-│   │   └── jpg/
+│   │   └── png/
 │   └── logo-with-background/
 │       └── png/
 └── integrations/
@@ -33,7 +31,6 @@ Available formats:
 - SVG for websites, interfaces, and scalable layouts
 - PDF for print and design applications
 - Transparent PNG at `@1x`, `@2x`, and `@4x`
-- JPG for black artwork when transparency is not required
 
 ## Monogram
 
@@ -44,7 +41,6 @@ Available formats:
 - SVG
 - PDF
 - Transparent PNG at `@1x`, `@2x`, and `@4x`
-- JPG
 
 ## Logo with background
 
@@ -59,7 +55,6 @@ Both variants are available at `@1x`, `@2x`, and `@4x`.
 
 - Use black artwork on white and light backgrounds.
 - Use transparent white SVG, PDF, or PNG artwork on dark backgrounds.
-- White JPG exports are not included because JPG does not support transparency and the artwork disappears when flattened onto white.
 - Use `codecflow_logo_white_on_black` when a fixed black background is required.
 
 ## Naming convention
