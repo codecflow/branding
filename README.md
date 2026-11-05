@@ -1,123 +1,80 @@
-# Branding
-
 # CodecFlow Branding Assets
 
-This repository contains the official branding assets for CodecFlow, including logos, partner integration assets, and brand guidelines.
+Official CodecFlow logo and partner assets.
 
-## 📁 Repository Structure
+## Repository structure
 
-### codecflow-logo
-The main brand assets for CodecFlow, organized by format and usage:
+```text
+branding/
+├── codecflow-logo/
+│   ├── symbol/
+│   │   ├── svg/
+│   │   ├── pdf/
+│   │   ├── png/
+│   │   └── jpg/
+│   ├── lockup/
+│   │   ├── svg/
+│   │   ├── pdf/
+│   │   ├── png/
+│   │   └── jpg/
+│   └── lockup-with-background/
+│       └── png/
+└── integrations/
+    └── Partners/
+        └── grayscale/
+```
 
-- **logo/** - Primary logo files
-  - `eps/` - Vector files for print and professional use
-  - `png/` - High-resolution raster files for digital use
-  - `jpg/` - Compressed formats for web and presentations
-  - `svg/` - Scalable vector graphics for web applications
+## CodecFlow logo variants
 
-- **logo-circle/** - Circular logo variants
-  - Contains the same format structure as the main logo
-  - Circular versions for profile pictures and social media
+### Symbol
 
-- **monogram/** - Standalone monogram assets
-  - Simplified brand mark for use when space is limited
-  - Available with and without backgrounds
+The standalone CodecFlow symbol is available in black and white artwork variants.
 
-- **monogram-circle/** - Circular monogram variants
-  - Circular versions of the standalone monogram
-  - Optimized for profile pictures and icons
+- `codecflow_symbol_black`: black symbol with a white counter
+- `codecflow_symbol_white`: white symbol with a black counter
 
-### integrations
-Partner and integration logos, organized by category:
+SVG and PNG files preserve transparency. PNG files are provided at `@1x`, `@2x`, and `@4x` resolutions.
 
-- **partners/** - Partner integration logos
-  - Full-color versions of partner logos for use in marketing and documentation
-  - Available partners: AWS, Chainlink, Eliza, GCP, Huggingface, Kubernetes, Langchain, Nosana, Runpod, Solana
-  - **grayscale/** - Light grayscale variants of partner logos for muted/secondary use cases
+### Lockup
 
+The horizontal lockup combines the CodecFlow symbol and wordmark.
 
-## 🎨 Logo Variants
+- `codecflow_lockup_black`: black artwork for light backgrounds
+- `codecflow_lockup_white`: white artwork for dark backgrounds
 
-### Primary Logo
-- **black_logo** - Black version for use on light backgrounds
-- **white_logo** - White version for use on dark backgrounds
-- **black_logo_white_bg** - Black logo with white background
-- **white_logo_black_bg** - White logo with black background
+SVG and PNG files preserve transparency. PNG files are provided at `@1x`, `@2x`, and `@4x` resolutions.
 
-### Circular Variants
-- **logo_circle_black** - Black circular logo
-- **logo_circle_white** - White circular logo
+### Lockup with background
 
-### Monogram
-- **monogram_dark** - Dark monogram
-- **monogram_light** - Light monogram
-- **monogram_dark_with_bg** - Dark monogram with background
-- **monogram_light_with_bg** - Light monogram with background
+Ready-to-use PNG lockups are available with fixed backgrounds:
 
-### Monogram Circle
-- **monogram_circle_black** - Black circular monogram
-- **monogram_circle_white** - White circular monogram
+- `codecflow_lockup_black_on_white`
+- `codecflow_lockup_white_on_black`
 
-### File Formats
-- **eps** - Best for print and professional design work
-- **png** - Best for digital use with transparency support
-- **svg** - Best for web applications and scalable implementations
-- **jpg** - Best for presentations and web use where file size matters
+Both variants are provided at `@1x`, `@2x`, and `@4x` resolutions.
 
-## 📏 Usage Guidelines
+## Format guidance
 
-### Recommended Sizes
-- **1200px** versions available for high-resolution displays
-- **svg** files scale infinitely without quality loss
-- **eps** files maintain vector quality at any size
+- Use SVG for websites, interfaces, and scalable digital layouts.
+- Use PDF for print and design applications.
+- Use transparent PNG files when raster artwork is required.
+- Use the background PNG files when a fixed black or white field is needed.
+- Use JPG only when transparency is not required.
 
-### Background Considerations
-- Use dark logos on light backgrounds
-- Use light logos on dark backgrounds
-- Pre-combined versions available for specific use cases
+## Naming convention
 
-## 🔗 Integration Assets
+Files follow this pattern:
 
-The `integrations/partners/` directory contains partner logos in two variants:
+```text
+codecflow_[asset]_[artwork-or-context][resolution].[extension]
+```
 
-- **Full-color versions** - Located in `partners/` for primary use cases
-- **Grayscale variants** - Located in `partners/grayscale/` for secondary/muted use cases
+Examples:
 
-Partner logos are optimized for use alongside CodecFlow branding in:
-- Marketing materials
-- Documentation
-- Integration announcements
-- Partnership presentations
-- Product interfaces
+- `codecflow_symbol_black.svg`
+- `codecflow_lockup_white@2x.png`
+- `codecflow_lockup_black_on_white@4x.png`
 
-## 📋 File Naming Convention
+## Partner assets
 
-Files follow a consistent naming pattern:
-- **Directory names**: lowercase with dashes (e.g., `logo/`, `logo-circle/`, `monogram/`, `monogram-circle/`)
-  - Format subfolders: `eps/`, `jpg/`, `png/`, `svg/`
-- **File names**: lowercase with underscores replacing spaces
-  - Examples:
-    - `black_logo_no_bg.eps` - Black logo without background in EPS format
-    - `white_logo_white_bg@4x.png` - White logo with white background at 4x resolution in PNG format
-    - `monogram_dark_1200px.jpg` - Dark monogram at 1200px in JPG format
-    - `logo_circle_black.svg` - Black circular logo in SVG format
-- **Format**: `[type]_[variant]_[context][resolution].[extension]`
-  - **type**: logo, monogram, logo_circle, monogram_circle
-  - **variant**: black, white, dark, light
-  - **context**: no_bg (no background), white_bg, black_bg, with_bg
-  - **resolution**: @2x, @4x (for PNG), @4x-100 (for JPG), 1200px (for large files)
-
-## 🚀 Quick Start
-
-1. **For web use**: Use svg files from `/svg/` folders
-2. **For print**: Use eps files from `/eps/` folders
-3. **For presentations**: Use png or jpg files with appropriate resolution
-4. **For social media**: Use circular logo variants from `/logo-circle/` and `/monogram-circle/`
-
-## 📞 Contact
-
-For questions about brand usage or additional asset requests, please contact the CodecFlow team.
-
----
-
-**Note**: Please respect trademark guidelines and ensure proper usage of all brand assets.
+`integrations/Partners/` contains partner and integration logos. Grayscale variants are stored in `integrations/Partners/grayscale/`.
