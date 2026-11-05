@@ -7,59 +7,57 @@ Official CodecFlow logo and partner assets.
 ```text
 branding/
 ├── codecflow-logo/
-│   ├── symbol/
+│   ├── logo/
 │   │   ├── svg/
 │   │   ├── pdf/
 │   │   ├── png/
 │   │   └── jpg/
-│   ├── lockup/
+│   ├── monogram/
 │   │   ├── svg/
 │   │   ├── pdf/
 │   │   ├── png/
 │   │   └── jpg/
-│   └── lockup-with-background/
+│   └── logo-with-background/
 │       └── png/
 └── integrations/
     └── Partners/
         └── grayscale/
 ```
 
-## CodecFlow logo variants
+## Logo
 
-### Symbol
+`logo/` contains the horizontal CodecFlow logo. The black artwork is visible on white and light backgrounds.
 
-The standalone CodecFlow symbol is available in black and white artwork variants.
+Available formats:
 
-- `codecflow_symbol_black`: black symbol with a white counter
-- `codecflow_symbol_white`: white symbol with a black counter
+- SVG for websites, interfaces, and scalable layouts
+- PDF for print and design applications
+- Transparent PNG at `@1x`, `@2x`, and `@4x`
+- JPG for applications that do not support transparency
 
-SVG and PNG files preserve transparency. PNG files are provided at `@1x`, `@2x`, and `@4x` resolutions.
+## Monogram
 
-### Lockup
+`monogram/` contains the standalone CodecFlow mark. The black artwork is visible on white and light backgrounds.
 
-The horizontal lockup combines the CodecFlow symbol and wordmark.
+Available formats:
 
-- `codecflow_lockup_black`: black artwork for light backgrounds
-- `codecflow_lockup_white`: white artwork for dark backgrounds
+- SVG
+- PDF
+- Transparent PNG at `@1x`, `@2x`, and `@4x`
+- JPG
 
-SVG and PNG files preserve transparency. PNG files are provided at `@1x`, `@2x`, and `@4x` resolutions.
+## Logo with background
 
-### Lockup with background
+`logo-with-background/` contains ready-to-use PNG files with fixed backgrounds:
 
-Ready-to-use PNG lockups are available with fixed backgrounds:
+- `codecflow_logo_black_on_white`
+- `codecflow_logo_white_on_black`
 
-- `codecflow_lockup_black_on_white`
-- `codecflow_lockup_white_on_black`
+Both variants are available at `@1x`, `@2x`, and `@4x`.
 
-Both variants are provided at `@1x`, `@2x`, and `@4x` resolutions.
+## Visibility
 
-## Format guidance
-
-- Use SVG for websites, interfaces, and scalable digital layouts.
-- Use PDF for print and design applications.
-- Use transparent PNG files when raster artwork is required.
-- Use the background PNG files when a fixed black or white field is needed.
-- Use JPG only when transparency is not required.
+White transparent logo and monogram exports are not included because their white lettering and shapes disappear in white-background previews. Use `codecflow_logo_white_on_black` when a white logo is required.
 
 ## Naming convention
 
@@ -71,9 +69,9 @@ codecflow_[asset]_[artwork-or-context][resolution].[extension]
 
 Examples:
 
-- `codecflow_symbol_black.svg`
-- `codecflow_lockup_white@2x.png`
-- `codecflow_lockup_black_on_white@4x.png`
+- `codecflow_logo_black.svg`
+- `codecflow_monogram_black@2x.png`
+- `codecflow_logo_white_on_black@4x.png`
 
 ## Partner assets
 
