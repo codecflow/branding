@@ -26,18 +26,18 @@ branding/
 
 ## Logo
 
-`logo/` contains the horizontal CodecFlow logo. The black artwork is visible on white and light backgrounds.
+`logo/` contains the horizontal CodecFlow logo in black and white artwork variants.
 
 Available formats:
 
 - SVG for websites, interfaces, and scalable layouts
 - PDF for print and design applications
 - Transparent PNG at `@1x`, `@2x`, and `@4x`
-- JPG for applications that do not support transparency
+- JPG for black artwork when transparency is not required
 
 ## Monogram
 
-`monogram/` contains the standalone CodecFlow mark. The black artwork is visible on white and light backgrounds.
+`monogram/` contains the standalone CodecFlow mark in black and white artwork variants.
 
 Available formats:
 
@@ -57,7 +57,10 @@ Both variants are available at `@1x`, `@2x`, and `@4x`.
 
 ## Visibility
 
-White transparent logo and monogram exports are not included because their white lettering and shapes disappear in white-background previews. Use `codecflow_logo_white_on_black` when a white logo is required.
+- Use black artwork on white and light backgrounds.
+- Use transparent white SVG, PDF, or PNG artwork on dark backgrounds.
+- White JPG exports are not included because JPG does not support transparency and the artwork disappears when flattened onto white.
+- Use `codecflow_logo_white_on_black` when a fixed black background is required.
 
 ## Naming convention
 
@@ -70,7 +73,7 @@ codecflow_[asset]_[artwork-or-context][resolution].[extension]
 Examples:
 
 - `codecflow_logo_black.svg`
-- `codecflow_monogram_black@2x.png`
+- `codecflow_monogram_white@2x.png`
 - `codecflow_logo_white_on_black@4x.png`
 
 ## Partner assets
